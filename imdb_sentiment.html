@@ -56,11 +56,11 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile-img.PNG" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Yashwant Kandregula</a></h1>
+        <img src="assets/img/profile_pic1.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Siddhant Soam</a></h1>
         <div class="social-links mt-3 text-center">
-          <a href="https://www.linkedin.com/in/yashwantsk/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://github.com/yashwant43" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/siddhant-soam/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/SiddhantSoam" class="github"><i class="bx bxl-github"></i></a>
 
         </div>
       </div>
@@ -84,10 +84,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h3>Extremist & Non Extremist Tweets Classifier</h3>
+          <h3>IMDB Reviews Sentiment Analysis</h3>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li><a href="Atltab.html">Next Portfolio</a></li>
+            <li><a href="process_scheduler.html">Next Portfolio</a></li>
           </ol>
         </div>
 
@@ -100,34 +100,40 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-8">
+          <div class="col-lg-6">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/gra.jpg" alt="">
+                  <img src="assets/img/IMDB_images/LSTM_cfmatrix.png" alt="LSTM Confusion Matrix">
                 </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/IMDB_images/Logistic_regression_cfmatrix.png" alt="Logistic Regression Confusion Matrix">
+                </div>
+
               </div>
               <div class="swiper-pagination"></div>
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="col-lg-6">
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
                 <li><strong>Category</strong>: Sentiment Analysis & Classification</li>
-                <li><strong>Client</strong>: Georgia State University(Research Project)</li>
-                <li><strong>Project date</strong>: 05 Dec, 2022</li>
+                <!-- <li><strong>Client</strong>: Georgia State University(Research Project)</li> -->
+                <li><strong>Project date</strong>: 05 Nov, 2023</li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/SiddhantSoam/SentimentAnalysis_IMDBreviews">Project Link</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
               <h2>Project Description</h2>
               <ul>
-               <li> Main aim of this research project is to classify extremist and non-extremist tweets </li>
-               <li> Extracted 100K Tweets using Twitter API, performed data cleaning to remove special characters, links and loaded the data to PostgresDB </li>
-               <li> Created N-grams and visualized top 5 topics using LDA model. Created word embeddings using Word2Vec and used T-SNE for visualzing the embeddings</li>
-               <li> Performed finetuning of the word embeddings to classify extremist and non extremist tweets using BERT and GPT-2</li>
+               <li> <b>Objective:</b> Conducted sentiment analysis on IMDb reviews, categorizing them as either positive or negative sentiments to understand audience opinions. </li>
+               <li> <b>Techniques Used:</b> Employed Bag of Words and TF-IDF embedding methodologies to preprocess and represent text data, capturing semantic meanings and word importance. </li>
+               <li> <b>Logistic Regression:</b> Utilized Logistic Regression as an initial classifier, evaluating its performance using a confusion matrix to assess the model's ability to predict sentiment labels. </li>
+               <li> <b>LSTM:</b> Implemented Long Short-Term Memory (LSTM) neural networks, a type of recurrent neural network (RNN), for sentiment analysis, and further evaluated its effectiveness using a confusion matrix to understand its prediction accuracy.</li>
               
             </div>
           </div>
@@ -151,7 +157,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        Designed by <a href="https://github.com/yashwant43">yashwant</a>
+        Designed by <a href="https://github.com/SiddhantSoam">Siddhant</a>
       </div>
     </div>
   </footer><!-- End  Footer -->
